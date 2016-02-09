@@ -1,5 +1,17 @@
-https://raw.githubusercontent.com/omscracker/TV-Online-8bit/master/addons.xml
 
-https://raw.githubusercontent.com/omscracker/TV-Online-8bit/master/addons.xml.md5
 
-https://raw.githubusercontent.com/omscracker/TV-Online-8bit/master
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.kodi-8bit" name="Repo 8bit By Orlando" version="1.0.0" provider-name="KodiRD">
+	<extension point="xbmc.addon.repository" name="Repo 8bit By Orlando">
+		<info compressed="false">https://https://raw.githubusercontent.com/omscracker/TV-Online-8bit/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/omscracker/TV-Online-8bit/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/omscracker/TV-Online-8bit/master</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Repo 8bit By Orlando</summary>
+   		<description lang="en">Instala los Addons de Kodi 8 Bit.</description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
